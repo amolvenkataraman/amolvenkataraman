@@ -1,0 +1,555 @@
+[
+ {
+  "repo": "amolvenkataraman/Nilaya",
+  "branch": "master",
+  "banner": {
+   "eyebrow": "amolvenkataraman  /  Nilaya",
+   "name": "Nilaya",
+   "pitch": "A self-hosted life management and logging platform for a family.",
+   "type": "Self-hosted web app",
+   "stack": "Django · React · Postgres",
+   "started": "2020",
+   "status": "In daily use"
+  },
+  "badges": [
+   [
+    "Django",
+    "5.1",
+    null
+   ],
+   [
+    "licence",
+    "AGPL-3.0",
+    "LICENSE"
+   ]
+  ],
+  "nav": [
+   [
+    "What it is",
+    "what-it-is"
+   ],
+   [
+    "Apps",
+    "apps"
+   ],
+   [
+    "Architecture",
+    "architecture"
+   ],
+   [
+    "Try it locally",
+    "try-it-locally"
+   ],
+   [
+    "Self-hosting",
+    "self-hosting"
+   ]
+  ],
+  "hai": {
+   "hai": "M1",
+   "statement": "Hand-written from 2020 to early 2025. Since then, AI coding tools have helped restore lost work and build new features, and I reviewed, tested and ran every change in production.",
+   "note": "The full history is in “How AI was (and wasn't) used” below. Provided as is, with no warranty."
+  },
+  "strip": {
+   "center_div": true
+  },
+  "lead": "Calendar, tasks, habits, contacts, photos, places and notifications for a family, on a server you own, with ideas (and a lot of functionality) borrowed from Google Workspace apps."
+ },
+ {
+  "repo": "amolvenkataraman/uwquest",
+  "branch": "main",
+  "banner": {
+   "eyebrow": "amolvenkataraman  /  uwquest",
+   "name": "uwquest",
+   "pitch": "UWaterloo Quest from your terminal: classes, grades and enrollment. Read-only.",
+   "type": "CLI + Python library",
+   "stack": "Python · Textual",
+   "started": "2026",
+   "status": "Released"
+  },
+  "badges": [
+   [
+    "python",
+    "3.11+",
+    null
+   ],
+   [
+    "licence",
+    "MIT",
+    "LICENSE"
+   ]
+  ],
+  "nav": [
+   [
+    "Install",
+    "install"
+   ],
+   [
+    "Usage",
+    "usage"
+   ],
+   [
+    "Terminal UI",
+    "terminal-ui"
+   ],
+   [
+    "How it works",
+    "how-it-works"
+   ],
+   [
+    "Status",
+    "status"
+   ]
+  ],
+  "hai": {
+   "hai": "A1",
+   "statement": "Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on my own account.",
+   "note": "Unofficial and not affiliated with the University of Waterloo. Provided as is, with no warranty. Read DISCLAIMER.md before use."
+  },
+  "disclaimer": true,
+  "fine_print": "Use it only on your own account, at a modest request rate, and check UW's acceptable-use policy for automated access. Full terms: [DISCLAIMER.md](DISCLAIMER.md)",
+  "absolute": true
+ },
+ {
+  "repo": "amolvenkataraman/make-poster",
+  "branch": "main",
+  "banner": {
+   "eyebrow": "amolvenkataraman  /  make-poster",
+   "name": "/make-poster",
+   "pitch": "Turn the project you built into print-ready posters, with one command in Claude Code.",
+   "type": "Claude Code plugin",
+   "stack": "JavaScript · Chromium",
+   "started": "2026",
+   "status": "Released"
+  },
+  "badges": [
+   [
+    "Claude Code",
+    "plugin",
+    null
+   ],
+   [
+    "licence",
+    "MIT",
+    "LICENSE"
+   ]
+  ],
+  "nav": [
+   [
+    "How it works",
+    "how-it-works"
+   ],
+   [
+    "What you get",
+    "what-you-get"
+   ],
+   [
+    "Installation",
+    "installation"
+   ],
+   [
+    "Options",
+    "options"
+   ],
+   [
+    "Limitations",
+    "limitations"
+   ]
+  ],
+  "hai": {
+   "hai": "A1",
+   "statement": "Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on my own projects.",
+   "note": "Provided as is, with no warranty."
+  },
+  "strip": {
+   "drop_prefix": [
+    "**Turn the project you built into print-ready posters"
+   ]
+  }
+ },
+ {
+  "repo": "amolvenkataraman/singularity",
+  "branch": "master",
+  "banner": {
+   "eyebrow": "amolvenkataraman  /  singularity",
+   "name": "Singularity",
+   "pitch": "Back up entire D2L Brightspace and Google Classroom courses to your computer.",
+   "type": "CLI scraper",
+   "stack": "Python",
+   "started": "2023",
+   "status": "Released"
+  },
+  "badges": [
+   [
+    "python",
+    "3",
+    null
+   ],
+   [
+    "licence",
+    "MIT",
+    "LICENSE"
+   ]
+  ],
+  "nav": [
+   [
+    "Why",
+    "why-does-it-exist"
+   ],
+   [
+    "What it does",
+    "what-does-it-do"
+   ],
+   [
+    "How to run it",
+    "how-to-run-it"
+   ],
+   [
+    "Arguments",
+    "command-line-arguments"
+   ]
+  ],
+  "hai": {
+   "hai": "H",
+   "statement": "Written entirely by hand. No AI tools were used at any stage.",
+   "note": "Unofficial and not affiliated with D2L or Google. Use it only on courses you can access. Provided as is, with no warranty."
+  }
+ },
+ {
+  "repo": "amolvenkataraman/discord-server-wipe",
+  "branch": "main",
+  "banner": {
+   "eyebrow": "amolvenkataraman  /  discord-server-wipe",
+   "name": "discord-server-wipe",
+   "pitch": "Decommission a Discord server: bulk-delete every message, then kick every member.",
+   "name_size": 68,
+   "type": "Discord bot",
+   "stack": "Python · discord.py",
+   "started": "2026",
+   "status": "Released"
+  },
+  "badges": [
+   [
+    "python",
+    "3",
+    null
+   ],
+   [
+    "licence",
+    "MIT",
+    "LICENSE"
+   ]
+  ],
+  "nav": [
+   [
+    "Why",
+    "why-does-it-exist"
+   ],
+   [
+    "Commands",
+    "commands"
+   ],
+   [
+    "Setup",
+    "setup"
+   ]
+  ],
+  "hai": {
+   "hai": "A1",
+   "statement": "Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on my own servers.",
+   "note": "Deleted messages can't be recovered. Provided as is, with no warranty. Use it at your own risk."
+  }
+ },
+ {
+  "repo": "upstream-wontfix/tplinkctl",
+  "branch": "main",
+  "banner": {
+   "eyebrow": "upstream-wontfix  /  tplinkctl",
+   "name": "tplinkctl",
+   "pitch": "Read-first CLI and Python API for TP-Link routers, with connectivity diagnostics.",
+   "type": "CLI + Python library",
+   "stack": "Python",
+   "started": "2026",
+   "status": "Released"
+  },
+  "badges": [
+   [
+    "python",
+    "3.10+",
+    null
+   ],
+   [
+    "licence",
+    "GPL-3.0",
+    "LICENSE"
+   ]
+  ],
+  "nav": [
+   [
+    "Install",
+    "install"
+   ],
+   [
+    "CLI",
+    "cli"
+   ],
+   [
+    "Known quirks",
+    "known-quirks"
+   ],
+   [
+    "Python API",
+    "python-api"
+   ]
+  ],
+  "hai": {
+   "hai": "A1",
+   "statement": "Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on my own router.",
+   "note": "Unofficial and not affiliated with TP-Link. Use it only on routers you own or are authorised to administer. Provided as is, with no warranty."
+  },
+  "disclaimer": true
+ },
+ {
+  "repo": "upstream-wontfix/transitlog",
+  "branch": "main",
+  "banner": {
+   "eyebrow": "upstream-wontfix  /  transitlog",
+   "name": "transitlog",
+   "pitch": "Download your own Clipper and PRESTO transit-card history and get usage reports.",
+   "type": "CLI + Python library",
+   "stack": "Python",
+   "started": "2026",
+   "status": "Released"
+  },
+  "badges": [
+   [
+    "python",
+    "3.10+",
+    null
+   ],
+   [
+    "licence",
+    "MIT",
+    "LICENSE"
+   ]
+  ],
+  "nav": [
+   [
+    "Install",
+    "install"
+   ],
+   [
+    "Usage",
+    "usage"
+   ],
+   [
+    "Sample report",
+    "sample-report-made-up-numbers"
+   ],
+   [
+    "Python API",
+    "python-api"
+   ]
+  ],
+  "hai": {
+   "hai": "A1",
+   "statement": "Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on my own cards.",
+   "note": "Unofficial and not affiliated with Clipper, PRESTO, MTC or Metrolinx. Use it only on your own account. Provided as is, with no warranty."
+  },
+  "disclaimer": true
+ },
+ {
+  "repo": "upstream-wontfix/ICloudDL",
+  "branch": "main",
+  "banner": {
+   "eyebrow": "upstream-wontfix  /  ICloudDL",
+   "name": "ICloudDL",
+   "pitch": "The Download button Apple never shipped: save a whole iCloud Shared Album without a $999 glass rectangle.",
+   "type": "CLI tool",
+   "stack": "Python",
+   "started": "2026",
+   "status": "Released"
+  },
+  "badges": [
+   [
+    "python",
+    "3",
+    null
+   ],
+   [
+    "licence",
+    "MIT",
+    "LICENSE"
+   ]
+  ],
+  "nav": [
+   [
+    "Install",
+    "install"
+   ],
+   [
+    "Use",
+    "use"
+   ],
+   [
+    "Heads-up on quality",
+    "heads-up-on-quality"
+   ]
+  ],
+  "hai": {
+   "hai": "A1",
+   "statement": "Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on real shared albums.",
+   "note": "Unofficial and not affiliated with Apple. Only download albums you're allowed to save. Provided as is, with no warranty."
+  },
+  "disclaimer": true
+ },
+ {
+  "repo": "amolvenkataraman/ContactQR",
+  "branch": "main",
+  "banner": {
+   "eyebrow": "amolvenkataraman  /  ContactQR",
+   "name": "ContactQR",
+   "pitch": "Show your contact details and links as QR codes on your phone, configured from one JSON file.",
+   "type": "Android app",
+   "stack": "Kotlin",
+   "started": "2026",
+   "status": "Beta"
+  },
+  "badges": [
+   [
+    "Android",
+    "8.0+",
+    null
+   ],
+   [
+    "licence",
+    "MIT",
+    "LICENSE"
+   ]
+  ],
+  "nav": [
+   [
+    "Configure",
+    "configure"
+   ],
+   [
+    "Build",
+    "build"
+   ],
+   [
+    "Roadmap",
+    "roadmap"
+   ]
+  ],
+  "hai": {
+   "hai": "A1",
+   "statement": "Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on my own phone.",
+   "note": "Provided as is, with no warranty."
+  }
+ },
+ {
+  "repo": "amolvenkataraman/TotalControl",
+  "branch": "main",
+  "banner": {
+   "eyebrow": "amolvenkataraman  /  TotalControl",
+   "name": "TotalControl",
+   "pitch": "A keyboard-driven command launcher: press a shortcut, type a short command, and it runs.",
+   "type": "Desktop tool",
+   "stack": "C++ · SDL2 · Python",
+   "started": "2023",
+   "status": "Prototype"
+  },
+  "badges": [
+   [
+    "platform",
+    "Linux",
+    null
+   ]
+  ],
+  "nav": [
+   [
+    "C++ version",
+    "c-version-2025-linux"
+   ],
+   [
+    "Python version",
+    "python-version-january-2023-conuhacks-vii"
+   ],
+   [
+    "History",
+    "history"
+   ]
+  ],
+  "hai": {
+   "parts": [
+    [
+     "Code",
+     "HC"
+    ],
+    [
+     "README",
+     "A1"
+    ]
+   ],
+   "statement": "I wrote the code by hand: a Python version at ConUHacks VII in 2023, then a C++ rewrite in 2025. In 2026 AI wrote the security fix and this README.",
+   "note": "Provided as is, with no warranty."
+  }
+ },
+ {
+  "repo": "amolvenkataraman/Docket",
+  "branch": "master",
+  "banner": {
+   "eyebrow": "amolvenkataraman  /  Docket",
+   "name": "Docket",
+   "pitch": "A school planner I built at 15: one calendar for assignments, class events and school-wide events.",
+   "type": "Web app",
+   "stack": "Django · JavaScript",
+   "started": "2020",
+   "status": "Archived"
+  },
+  "badges": [
+   [
+    "python",
+    "3.9",
+    null
+   ],
+   [
+    "licence",
+    "MIT",
+    "LICENSE"
+   ]
+  ],
+  "nav": [
+   [
+    "Features",
+    "features"
+   ],
+   [
+    "Screenshots",
+    "screenshots"
+   ],
+   [
+    "Running it locally",
+    "running-it-locally"
+   ],
+   [
+    "History",
+    "history"
+   ]
+  ],
+  "hai": {
+   "parts": [
+    [
+     "Code",
+     "H"
+    ],
+    [
+     "README",
+     "A1"
+    ]
+   ],
+   "statement": "I wrote Docket by hand in 2020–21. In 2026, AI made small fixes so it runs today, removed private data, and wrote this README and the screenshots.",
+   "note": "Archived for preservation. Provided as is, with no warranty."
+  }
+ }
+]

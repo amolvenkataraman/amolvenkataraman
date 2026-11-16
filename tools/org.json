@@ -1,0 +1,57 @@
+{
+ "branch": "main",
+ "banner": {
+  "eyebrow": "upstream-wontfix",
+  "name": "upstream-wontfix",
+  "pitch": "Unofficial clients and tools for things whose official software is missing, closed, clunky or abandoned.",
+  "fields": [
+   [
+    "Type",
+    "GitHub organization"
+   ],
+   [
+    "Built with",
+    "Python"
+   ],
+   [
+    "Started",
+    "2026"
+   ],
+   [
+    "Maintainer",
+    "Amol Venkataraman"
+   ]
+  ]
+ },
+ "cards": [
+  {
+   "name": "tplinkctl",
+   "hai": "A1",
+   "pitch": "Read-first CLI and Python API for TP-Link routers, with connectivity diagnostics.",
+   "started": "2026",
+   "stack": "Python",
+   "status": "Released"
+  },
+  {
+   "name": "transitlog",
+   "hai": "A1",
+   "pitch": "Download your own Clipper and PRESTO transit-card history and get usage reports.",
+   "started": "2026",
+   "stack": "Python",
+   "status": "Released"
+  },
+  {
+   "name": "ICloudDL",
+   "hai": "A1",
+   "pitch": "The Download button Apple never shipped: save a whole iCloud Shared Album without a $999 glass rectangle.",
+   "started": "2026",
+   "stack": "Python",
+   "status": "Released"
+  }
+ ],
+ "hai": {
+  "hai": "A1",
+  "statement": "Every tool here is A1 unless its README says otherwise: AI coding agents wrote most of the code, and a person directed it and tested it on real hardware and accounts.",
+  "note": "Nothing here is affiliated with or endorsed by the vendors whose products it talks to. Provided as is, with no warranty."
+ }
+}

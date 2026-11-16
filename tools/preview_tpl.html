@@ -1,0 +1,61 @@
+<title>Repo Header Rollout</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one column of repos; each shows its README top in a GitHub-like frame with a light/dark switch. Page chrome uses the amolven.com palette. */
+:root{--bg:#f1f6f6;--surface:#fff;--ink:#15181c;--ink-2:#3c434b;--line:#d6dbe0;--accent:#0f6f68;
+  --f-display:"Source Serif 4",Georgia,serif;--f-body:"Instrument Sans",system-ui,sans-serif;--f-mono:"JetBrains Mono",ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111416;--surface:#15181c;--ink:#eceff1;--ink-2:#c9cfd4;--line:#23292e;--accent:#5fd3bd;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#111416;--surface:#15181c;--ink:#eceff1;--ink-2:#c9cfd4;--line:#23292e;--accent:#5fd3bd;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);line-height:1.6}
+.wrap{max-width:960px;margin:0 auto;padding-block:40px 80px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:44px}
+h1,h2{font-family:var(--f-display);font-weight:600;margin:0;line-height:1.2;text-wrap:balance}
+h1{font-size:clamp(1.9rem,4.5vw,2.5rem)} h2{font-size:1.3rem}
+.eyebrow{font-family:var(--f-mono);font-size:.78rem;color:var(--accent)}
+.lede{color:var(--ink-2);max-width:70ch;margin:0}
+section{display:flex;flex-direction:column;gap:12px}
+.status{font-family:var(--f-mono);font-size:.8rem;color:var(--ink-2);border:1px solid var(--line);border-radius:999px;padding:3px 12px;background:var(--surface);width:fit-content}
+.tabs{display:flex;gap:6px}
+.tabs button{font:500 .85rem var(--f-body);border:1px solid var(--line);background:var(--surface);color:var(--ink-2);padding:4px 14px;border-radius:8px;cursor:pointer}
+.tabs button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.tabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.frame{min-width:0}
+.gh{border-radius:10px;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5}
+.gh.light{background:#fff;color:#1f2328;border:1px solid #d1d9e0}
+.gh.dark{background:#0d1117;color:#f0f6fc;border:1px solid #3d444d}
+.gh-hd{font-size:12px;padding:8px 16px}
+.gh.light .gh-hd{background:#f6f8fa;color:#59636e;border-bottom:1px solid #d1d9e0}
+.gh.dark .gh-hd{background:#151b23;color:#9198a1;border-bottom:1px solid #3d444d}
+.md{padding:24px;overflow-x:auto}
+.md>*:first-child{margin-top:0}
+.md p,.md ul,.md blockquote,.md pre{margin:0 0 16px}
+.md a{text-decoration:none}
+.gh.light .md a{color:#0969da} .gh.dark .md a{color:#4493f8}
+.md img{max-width:100%;vertical-align:middle}
+.md [align="center"]{text-align:center}
+.md h2{font-family:inherit;font-size:1.5em;font-weight:600;padding-bottom:.3em;margin:24px 0 16px;border-bottom:1px solid #d1d9e0b3}
+.gh.dark .md h2{border-color:#3d444db3}
+.md blockquote{padding:0 1em;border-left:.25em solid #d1d9e0;color:#59636e}
+.gh.dark .md blockquote{border-color:#3d444d;color:#9198a1}
+.md code{font-size:85%;padding:.2em .4em;border-radius:6px;background:#818b981f}
+.md pre{padding:16px;border-radius:6px;background:#f6f8fa;overflow:auto} .gh.dark .md pre{background:#151b23}
+.md pre code{background:none;padding:0}
+.md sub{font-size:75%}
+.ph{display:inline-block;padding:40px 0;width:100%;border:1px dashed #8885;border-radius:8px;font-size:13px;opacity:.6}
+@media (max-width:640px){.md{padding:14px}}
+</style>
+<div class="wrap">
+<header style="display:flex;flex-direction:column;gap:12px">
+  <span class="eyebrow">upstream-wontfix + 8 repos · README headers</span>
+  <h1>Repo Header Rollout</h1>
+  <p class="lede">The org profile, then the top of each repo README with the shared banner, badges, nav row and HAI Scale banner. Everything is rendered by GitHub's Markdown renderer and cut off after the intro. Existing screenshots show as placeholders here.</p>
+  <span class="status">Draft. Nothing pushed yet.</span>
+</header>
+{{sections}}
+</div>
+<script>
+document.querySelectorAll('.tabs').forEach(t=>t.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+t.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false'));
+document.querySelectorAll(`.frame[data-g="${t.dataset.g}"]`).forEach(f=>f.hidden=f.dataset.t!==b.dataset.t);}));
+</script>

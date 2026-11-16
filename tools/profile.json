@@ -1,0 +1,33 @@
+[
+ {
+  "kind": "banner",
+  "file": "assets/hero",
+  "eyebrow": "amolvenkataraman",
+  "name": "Amol Venkataraman",
+  "pitch": "I build dev tools, AI agents, automations and self-hosted software.",
+  "fields": [
+   [
+    "Studying",
+    "CS at Waterloo"
+   ],
+   [
+    "Class of",
+    "2027"
+   ],
+   [
+    "Based in",
+    "Toronto"
+   ],
+   [
+    "Website",
+    "amolven.com"
+   ]
+  ]
+ },
+ {
+  "kind": "hai_legend",
+  "file": "assets/hai-legend",
+  "lead": "HAI Scale",
+  "text": "Each repo shows how much AI made it, from fully human to fully automated."
+ }
+]

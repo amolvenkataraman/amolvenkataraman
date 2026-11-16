@@ -61,7 +61,8 @@ def header(spec, assets=".github/assets"):
     if spec.get("fine_print"):
         lines += ["", f"<sub>{spec['fine_print']}</sub>"]
     elif spec.get("disclaimer"):
-        lines += ["", "<sub>Full terms: [DISCLAIMER.md](DISCLAIMER.md)</sub>"]
+        target = f'https://github.com/{spec["repo"]}/blob/{spec["branch"]}/DISCLAIMER.md' if spec.get("absolute") else "DISCLAIMER.md"
+        lines += ["", f"<sub>Full terms: [DISCLAIMER.md]({target})</sub>"]
     lines.append(END)
     return "\n".join(lines)
 

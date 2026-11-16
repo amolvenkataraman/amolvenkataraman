@@ -53,7 +53,8 @@
   "strip": {
    "center_div": true
   },
-  "lead": "Calendar, tasks, habits, contacts, photos, places and notifications for a family, on a server you own, with ideas (and a lot of functionality) borrowed from Google Workspace apps."
+  "lead": "Calendar, tasks, habits, contacts, photos, places and notifications for a family, on a server you own, with ideas (and a lot of functionality) borrowed from Google Workspace apps.",
+  "absolute": true
  },
  {
   "repo": "amolvenkataraman/uwquest",
@@ -165,7 +166,8 @@
    "drop_prefix": [
     "**Turn the project you built into print-ready posters"
    ]
-  }
+  },
+  "absolute": true
  },
  {
   "repo": "amolvenkataraman/singularity",
@@ -213,7 +215,8 @@
    "hai": "H",
    "statement": "Written entirely by hand. No AI tools were used at any stage.",
    "note": "Unofficial and not affiliated with D2L or Google. Use it only on courses you can access. Provided as is, with no warranty."
-  }
+  },
+  "absolute": true
  },
  {
   "repo": "amolvenkataraman/discord-server-wipe",
@@ -258,7 +261,8 @@
    "hai": "A1",
    "statement": "Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on my own servers.",
    "note": "Deleted messages can't be recovered. Provided as is, with no warranty. Use it at your own risk."
-  }
+  },
+  "absolute": true
  },
  {
   "repo": "upstream-wontfix/tplinkctl",
@@ -307,7 +311,8 @@
    "statement": "Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on my own router.",
    "note": "Unofficial and not affiliated with TP-Link. Use it only on routers you own or are authorised to administer. Provided as is, with no warranty."
   },
-  "disclaimer": true
+  "disclaimer": true,
+  "absolute": true
  },
  {
   "repo": "upstream-wontfix/transitlog",
@@ -356,7 +361,8 @@
    "statement": "Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on my own cards.",
    "note": "Unofficial and not affiliated with Clipper, PRESTO, MTC or Metrolinx. Use it only on your own account. Provided as is, with no warranty."
   },
-  "disclaimer": true
+  "disclaimer": true,
+  "absolute": true
  },
  {
   "repo": "upstream-wontfix/ICloudDL",
@@ -401,7 +407,8 @@
    "statement": "Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on real shared albums.",
    "note": "Unofficial and not affiliated with Apple. Only download albums you're allowed to save. Provided as is, with no warranty."
   },
-  "disclaimer": true
+  "disclaimer": true,
+  "absolute": true
  },
  {
   "repo": "amolvenkataraman/ContactQR",
@@ -445,7 +452,8 @@
    "hai": "A1",
    "statement": "Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on my own phone.",
    "note": "Provided as is, with no warranty."
-  }
+  },
+  "absolute": true
  },
  {
   "repo": "amolvenkataraman/TotalControl",
@@ -493,7 +501,8 @@
    ],
    "statement": "I wrote the code by hand: a Python version at ConUHacks VII in 2023, then a C++ rewrite in 2025. In 2026 AI wrote the security fix and this README.",
    "note": "Provided as is, with no warranty."
-  }
+  },
+  "absolute": true
  },
  {
   "repo": "amolvenkataraman/Docket",
@@ -550,6 +559,7 @@
    ],
    "statement": "I wrote Docket by hand in 2020–21. In 2026, AI made small fixes so it runs today, removed private data, and wrote this README and the screenshots.",
    "note": "Archived for preservation. Provided as is, with no warranty."
-  }
+  },
+  "absolute": true
  }
 ]

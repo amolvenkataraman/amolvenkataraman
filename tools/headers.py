@@ -177,6 +177,9 @@ def push(specs, org, only):
         n = name_of(s)
         if only and n not in only:
             continue
+        if json.loads(gh("api", f"repos/{s['repo']}"))["archived"]:
+            print(s["repo"], "skipped (archived, read-only)")
+            continue
         d = os.path.join(BUILD, n)
         files = [("README.md", os.path.join(d, "README.md")),
                  (".github/assets/banner.svg", os.path.join(d, ".github/assets/banner.svg")),

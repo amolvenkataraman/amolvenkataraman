@@ -561,5 +561,70 @@
    "note": "Archived for preservation. Provided as is, with no warranty."
   },
   "absolute": true
+ },
+ {
+  "repo": "amolvenkataraman/haiscale",
+  "branch": "main",
+  "banner": {
+   "eyebrow": "amolvenkataraman  /  haiscale",
+   "name": "HAI Scale",
+   "pitch": "Say how much AI made it: a voluntary, self-declared label with seven tiers.",
+   "type": "Open label and site",
+   "stack": "Python · HTML · CSS",
+   "started": "2026",
+   "status": "v1.0, live"
+  },
+  "badges": [
+   [
+    "site",
+    "haiscale.amolven.com",
+    "https://haiscale.amolven.com"
+   ],
+   [
+    "licence",
+    "HAI Scale License 1.0",
+    "LICENSE.md"
+   ]
+  ],
+  "nav": [
+   [
+    "The tiers",
+    "the-tiers"
+   ],
+   [
+    "Use it",
+    "use-it"
+   ],
+   [
+    "For AI agents",
+    "for-ai-agents"
+   ],
+   [
+    "How it's built",
+    "how-its-built"
+   ],
+   [
+    "Build and deploy",
+    "build-and-deploy"
+   ],
+   [
+    "Licence",
+    "licence"
+   ]
+  ],
+  "hai": {
+   "parts": [
+    [
+     "Scale",
+     "HC"
+    ],
+    [
+     "Site",
+     "M2"
+    ]
+   ],
+   "statement": "I designed the scale and wrote its tiers myself; AI only proofread the wording. The site, badges and build script were made with AI coding agents under my design direction and review.",
+   "note": "The site's per-part breakdown is in its footer. Provided as is, with no warranty."
+  }
  }
 ]
